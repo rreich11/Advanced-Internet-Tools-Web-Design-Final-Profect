@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Live Life Right</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link href="web_design_CSS.css" rel="stylesheet"/>
+
+
+
+</head>
+
+<body>
+   <header id="Logo">Live Life Right</header>
+
+
+
+<!--navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <!--<a class="navbar-brand" href="Home_page.html">
+      <img id="logoImage" src="Live_Life_Right_imgs/healthLogo1%20edited.jpg" height="60px" alt="Logo"/></a>-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Home_page.html" >Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Healthy Diet
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+            <li><a class="dropdown-item" href="importance_of_healthy_diet.html">Importance of a Healthy Diet</a></li>
+            <li><a class="dropdown-item" href="fun%20facts.html">Food Fun Facts</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Exercise
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+            <li><a class="dropdown-item" href="Importance_exercise.html">Importance of Exercise</a></li>
+            <li><a class="dropdown-item" href="Workout_Routines.html">Workout Routines</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+   <br>
+
+  <h1>Work Out Routines</h1>
+  <h4><i>"A Workout for All Levels"</i></h4>
+
+<p class="general_info">It's important to keep track of your exercise routine.
+Each day before you exercise select the date, and record it somewhere for yourself. It's useful to look back on...
+</p>
+
+<!-- code for the date picker-->
+ <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+
+   <p>Date: <input type="text" id="datepicker"></p>
+
+
+<!--code for the accordian-->
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  } );
+  </script>
+<main>
+<div id="accordion">
+  <h3><b>Beginner</b></h3>
+  <div>
+    <p>Days a week: 2-3</p>
+    <ul>
+      <li><b>30 seconds: Step Jacks </b> </li>
+      <li><b>60 seconds: Half Wall Sit </b> </li>
+      <li><b>45 seconds: Knee Push Ups </b> </li>
+       <li><b>45 seconds: Standing Bicycle Crunch</b> </li>
+      <li><b>45 seconds: Standing Hip Circles</b> </li>
+      <li><b>60 seconds: Full Plank </b> </li>
+      <li><b>45 seconds: Side leg Raises (Right) </b> </li>
+      <li><b>45 seconds: Side leg Raises (Left) </b> </li>
+      <li><b>2 minutes: Walking High Knees</b> </li>
+      <li><b>45 seconds: Side Plank (Left) </b> </li>
+      <li><b>45 seconds: Side Plank (Right) </b> </li>
+</ul>
+       <p>Click <a class="work_out" href="beginner_exercise_explained.html">here</a> for step-by-step instructions of each.</p>
+
+  </div>
+  <h3><b>intermediate</b></h3>
+  <div>
+
+    <p>Days a week: 3-4</p>
+    <p>Complete exercise regiment from 'Beginner' and the additional added exercises below:</p>
+    <ul>
+    <li><b>45 seconds: Runners Lunge Stretch (left) </b> </li>
+      <li><b>45 seconds: Runners Lunge Stretch (right) </b> </li>
+      <li><b>45 seconds: Pulsing Lunges (left)</b> </li>
+      <li><b>45 seconds: Pulsing Lunges (right)</b> </li>
+      <li><b>45 seconds: Push-Ups </b> </li>
+      <li><b>45 seconds: Straight Leg kickbacks (Left) </b> </li>
+      <li><b>45 seconds: Straight Leg kickbacks (Right) </b> </li>
+      <li><b>45 seconds:Rainbow Leg Lifts (left)  </b> </li>
+      <li><b>45 seconds:Rainbow Leg Lifts (right)   </b> </li>
+      </ul>
+    <p>Click <a class="work_out" href="Intermediate_exercise_explained.html">here</a> for step-by-step instructions of each.</p>
+
+  </div>
+  <h3><b>Advanced</b></h3>
+  <div>
+    <p>Days a week: 4-5</p>
+    <p>Complete exercise regiments from 'Beginner' and 'Intermediate' in addition to the added exercises below:</p>
+    <ul>
+    <li><b>60 seconds: Jumping Jacks </b> </li>
+      <li><b>45 seconds: Abdominal Crunches </b> </li>
+      <li><b>60 seconds: Squats</b> </li>
+      <li><b>60 seconds: Tricep Dips </b> </li>
+      <li><b>60 seconds: High Knees Running in Place</b> </li>
+      <li><b>45 seconds: Lunges (left) </b> </li>
+      <li><b>45 seconds: Lunges (right) </b> </li>
+      <li><b>45 seconds: Side Plank (left) </b> </li>
+      <li><b>45 seconds: Side Plank (right) </b> </li>
+      </ul>
+    <p>Click <a class="work_out" href="Advanced_exercise_explained.html">here</a> for step-by-step instructions of each.</p>
+</div>
+</div>
+  </main>
+
+
+
+
+
+
+<footer>
+    <p id="contactUs">Contact our health professionals</p>
+    <p class="phoneEmail"><a href="tel:8008888888">Phone: 1-800-888-8888</a><br>
+    <a href="mailto:Livingright@health.com">Email: livingRight@health.com</a></p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+/*style for whole document*/
+html{
+    padding: 1em;
+    background: lightgray;
+    height: 100%;
+    width: 100%;
+    font-family:'Georgia', sans-serif;;
+}
+
+/*header styles*/
+header {
+    background:navy;
+    width: 100%;
+    height: 75px;
+    color: white;
+    text-align:center;
+    font-size: x-large;
+    font-family: 'Cooper Black', sans-serif;
+}
+
+/*header Logo*/
+header#Logo{
+
+    background-image: url("Live_Life_Right_imgs/Logo.png");
+    background-repeat: no-repeat;
+    background-size: 75px 75px;
+    background-position: top left;
+}
+
+/*Brown Rice Pasta image*/
+main#pastaPic{
+    background-image: url("Live_Life_Right_imgs/kaleBrownRicePasta.jpeg");
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: center;
+}
+
+p.general_info{
+    font-family: "Bodoni MT Black";
+    font-size: larger;
+    padding: 1em;
+
+}
+
+
+/*roll over link*/
+a :hover{
+    color: green;
+}
+
+/*h styles*/
+h1{
+   padding-top: 2em;
+}
+h4{
+    padding-bottom: 2em;
+}
+h1, h4{
+    text-align: center;
+}
+div#exercise_explained{
+
+}
+/*carousel styles*/
+.carousel-inner{
+    margin-left: auto;
+    margin-right: auto;
+}
+/*card styles*/
+.card{
+    border-color: darkgray;
+    border-style: dashed;
+    border-width: medium;
+    width: 100%;
+    height: 100%;
+    font-family: Georgia, sans-serif;
+
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-body{
+    text-align: left;
+
+}
+
+
+/*card style*/
+.row{
+    padding: 2em;
+    border-color: black;
+
+}
+
+
+/*footer styles*/
+footer{
+    background: navy;
+    width: auto;
+    height: auto;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: large;
+    font-family: 'Cooper Black', sans-serif;
+}
+
+footer#contactUs{
+    padding: 1em;
+}
+
+footer#contactInfo p.phoneEmail{
+    font-size: small;
+}
